@@ -1,0 +1,3 @@
+
+
+# link of data set is :- https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system?select=ratings.csv
