@@ -4,6 +4,6 @@
 
 
 
-# To download tha dataset that i used use the link below:-
+# To download tha dataset that i used, use the link below:-
  
   https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system?select=ratings.csv
