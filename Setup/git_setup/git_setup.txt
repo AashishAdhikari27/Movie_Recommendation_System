@@ -1,0 +1,55 @@
+# Here's a step-by-step guide to setup git:
+
+
+    1. For updating/upgrading the ubuntu system at first.
+
+        =>  sudo apt update
+            sudo apt upgrade
+
+
+    2. Now, Install git
+
+        => sudo apt install git
+            
+            OR
+
+        => sudo apt install git -y
+
+
+    3. Finally, Verify the Installation:
+
+        => git --version
+
+
+    4. Now, u need to configure Git username and email (Just one time step):
+
+        =>  git config --global user.name "Your Name"
+            git config --global user.email "yourname@example.com"
+
+
+        NOTE: Replace "Your Name" with your desired Git username and "yourname@example.com" with your email address associated with your Git account. These configurations will be used for all your Git repositories.
+    
+
+# To store git credentials permanently in ubuntu:
+
+    1. Open a terminal window.
+
+    2. Run the following command to create a credential helper:
+
+       ==> git config --global credential.helper store
+
+    3. Verify that the credential helper is set to store:
+
+       ==> git config --global credential.helper
+
+    4. Enter your username and password for the repository you want to store the credentials for.
+        --> Enter your username and password, which you have recently stored in the “~/.git-credential” file as plain text, in the case when you pull or push from the remote repository for the first time.
+        (i.e suru ko first time ma halna parna sakcha)
+
+    5. Save the changes.
+
+
+    Once you have completed these steps, you will no longer be prompted for your credentials when you interact with the repository from the Ubuntu terminal.
+
+
+
