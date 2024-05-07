@@ -1,0 +1,9 @@
+
+# I have movies.csv and ratings.csv files in my data folder while pushing that it gave error saying
+  file larger than 100 mb so i added those files in .gitignore files and continued working ...
+
+
+
+# To download tha dataset that i used, use the link below:-
+ 
+  https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system?select=ratings.csv
